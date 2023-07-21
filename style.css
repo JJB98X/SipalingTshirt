@@ -1,0 +1,80 @@
+
+header {
+  background-color: #313131;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+section.produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-nav a{
+  font-size: 17px;
+}
+
+.produk-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+}
+
+.produk-item img {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.produk-item h5{
+  margin: 0;
+}
+
+.produk-item p{
+  margin: 2px;
+}
+
+.produk-item a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+footer img{
+  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+}
+
+footer p{
+  float: right;
+  padding-right: 20px;
+}
